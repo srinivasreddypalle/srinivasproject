@@ -1,0 +1,62 @@
+.update-email-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.update-email-container h2 {
+  margin-bottom: 20px;
+  color: #2563eb; /* blue */
+  font-size: 22px;
+}
+
+.update-email-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.update-email-container input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.update-email-container input:focus {
+  border: 1px solid #2563eb;
+}
+
+.update-email-btn {
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.update-email-btn:hover {
+  background: #1e40af;
+  transform: scale(1.02);
+}
+
+.update-email-btn:active {
+  transform: scale(0.98);
+}
+
+.update-email-message {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #16a34a; /* green for success */
+}

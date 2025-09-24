@@ -1,0 +1,81 @@
+.results-history-container {
+  min-height: 80vh;
+  padding: 2rem;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results-history-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.results-table {
+  width: 90%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.results-table th,
+.results-table td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 1rem;
+}
+
+.results-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  color: #111827;
+}
+
+.results-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Status labels */
+.status {
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.status.pass {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #10b981;
+}
+
+.status.fail {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #ef4444;
+}
+
+/* Button */
+.back-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.back-btn:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
